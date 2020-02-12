@@ -41,7 +41,11 @@
 ===================
 
 如果你准备为某个bug提交自己的fix，或为某个任务提交自己的实现前，请先将Bug/Task指派给自己，然后再提交你的Pull Request
-（PR）。
+（PR）。PR的提交流程可以参考如下文档：
+
+  https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
+  https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork
+
 
 Review代码
 ====================
