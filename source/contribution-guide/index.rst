@@ -85,7 +85,7 @@ Review代码
 :ref:`license头模板 <refLicenseHeader>`。
 
 为了让每一位代码贡献者更加简单和方便，我们沿用了Linux® Kernel社区所使用的，与代码贡献相关的法律文档：
-`the Developer’s Certificate of Origin 1.1 (DCO) <https://github.com/csiabb/documents/source/related-docs/DCO1.1.txt>`_。
+`the Developer’s Certificate of Origin 1.1 (DCO) <https://raw.githubusercontent.com/csiabb/documents/master/source/related-docs/DCO1.1.txt>`_。
 
 
 当你在提交patch时，必须在commit meesage中包含一个sign-off的声明。声明如下所示，则表明你已经接受了上述法律条款：
