@@ -36,8 +36,7 @@
 
 * 项目管理工具
 
-  项目管理使用的是腾讯Tapd。产品，开发人员登录系统后，可根据自身情况领取任务。
-  如需加入项目，请联系 :ref:`名单 <refMaintainers>`。
+  项目管理使用的工具是腾讯`Tapd <https://www.tapd.cn/cloud_logins/login>`_ 。产品、开发人员登录Tapd项目后，可根据自身情况领取任务。如有疑问，请联系 :ref:`名单 <refMaintainers>`。
 
 .. _refBugReport:
 
