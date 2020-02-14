@@ -14,8 +14,13 @@ https://docutils.readthedocs.io/en/sphinx-docs/ref/rst/directives.html
 
 # 编译html文档
 
-这些项目文档可以通过以下方式编译成html文件，并方便的通过网络进行浏览。
+这些项目文档可以通过以下方式编译成html文件，并方便的通过浏览器进行浏览。
 
+在编译之前需要预先安装以下软件：
+* Python3
+* Pip
+
+然后运行如下命令，成功后用浏览器打开 `build/html/index.html` 进行阅读：
 ``` bash
 make all
 
