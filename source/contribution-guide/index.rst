@@ -84,7 +84,7 @@ Review代码
 
         [ID12345] 修复首页搜索框无法输入的问题
 
-        --bug=[12345] --user=[john] 原来的输入框只允许输入数字，
+        --bug=12345 --user=john 原来的输入框只允许输入数字，
         现在改成使用textField，允许输入任何字符。
         https://www.tapd.cn/11111111/prong/stories/view/1111111111111
 
