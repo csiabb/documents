@@ -40,8 +40,8 @@
 提交代码及规范
 ===================
 
-如果你准备为某个bug提交自己的fix，或为某个任务提交自己的实现前，请先将Bug/Task指派给自己，然后再提交你的Pull Request
-（PR）。PR的提交流程可以参考如下文档：
+如果你准备为某个bug提交自己的fix，或为某个任务提交自己的实现前，请先将Bug/Task/Story指派给自己，然后再提交你的
+Pull Request（PR）。PR的提交流程可以参考如下文档：
 
   https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
   https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork
@@ -67,16 +67,27 @@ Review代码
 * 一个PR中尽量避免300 LOC，否则review一些超大的PR会成为维护人员不可能完成的任务，所以尽量将过于庞大的PR拆分成独立的，
   让人容易理解的，并且能够独立测试的小的PR，分批次来提交；
 * commit message应该尽可能的准确，包括一行不超过50个字符的，能说明本次提交目的的标题，之后空一行，再详细描述本次提交
-  的内容。每一个commit message的标题都应该包含其相关联Bug/Task的唯一标识，（例如：[DOW-12345]），以方便项目管理上
-  的归类。
+  的内容。每一个commit message的标题都应该包含其相关联Bug/Task/Story的唯一标识，（例如：[ID12345]），以方便项
+  目管理上的归类。
+
+
+.. note::
+  为了与社区目前所使用的项目管理工具中的需求、任务、缺陷进行关联，需要在提交代码的commit message中增加如下的关键字::
+
+        缺陷关联：--bug=[bug id] --user=[usernick] 描述
+        需求关联：--story=[story id] --user=[usernick] 描述
+        任务关联：--task=[task id] --user=[usernick] 描述
+
 
 .. note::
   commit message的一个例子::
 
-        [DOW-12345] 修复首页搜索框无法输入的问题
+        [ID12345] 修复首页搜索框无法输入的问题
 
-        原来的输入框只允许输入数字，现在改成使用textField，允许输入
-        任何字符。
+        --bug=[12345] --user=[john] 原来的输入框只允许输入数字，
+        现在改成使用textField，允许输入任何字符。
+        https://www.tapd.cn/11111111/prong/stories/view/1111111111111
+
 
 法律相关
 ===================
