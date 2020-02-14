@@ -47,14 +47,6 @@ Pull Request（PR）。PR的提交流程可以参考如下文档：
   https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork
 
 
-Review代码
-====================
-
-帮助提交者和维护人员review代码，是对开源社区最大的贡献之一，也能帮助你更好的了解项目。维护人员决定PRs是否可以被merge，
-而你在review时提供的建议和测试PR的结果也可以为大家提供非常重要的参考。一旦你对PR review或测试完成后，可以将你所发现
-的做为comments添加到PR中，或者对该PR +1/-1。
-
-
 什么是一个好的PR
 =====================
 
@@ -87,6 +79,19 @@ Review代码
         --bug=12345 --user=john 原来的输入框只允许输入数字，
         现在改成使用textField，允许输入任何字符。
         https://www.tapd.cn/11111111/prong/stories/view/1111111111111
+
+
+Review与Merge代码
+====================
+
+帮助提交者和维护人员review代码，是对开源社区最大的贡献之一，也能帮助你更好的了解项目。维护人员决定PRs是否可以被merge，
+而你在review时提供的建议和测试PR的结果也可以为大家提供非常重要的参考。一旦你对PR review或测试完成后，可以将你所发现
+的做为comments添加到PR中，或者对该PR +1/-1。
+
+
+.. note::
+  * 一个PR需要至少两个以上的维护人员Approval之后才能够被merge。
+  * 维护人员在merge代码时应该选择 *rebase and merge* 选项，以避免产生过多的commit log记录。
 
 
 法律相关
