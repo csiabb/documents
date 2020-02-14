@@ -36,8 +36,8 @@
 
 * 项目管理工具
 
-   使用GitHub提供的project管理工具，对功能需求（Feature）、开发任务（Task）进行管理和跟踪，
-   请参考 `projects <https://github.com/orgs/csiabb/projects>`_ 。
+项目管理使用腾讯`TAPD<https://www.tapd.cn/>对需求user story进行了分解。产品，开发人员登录系统后，可根据自身情况领取任务。
+如需加入项目，请联系 :ref:`名单 <refMaintainers>`。
 
 .. _refBugReport:
 
