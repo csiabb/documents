@@ -51,7 +51,7 @@ Pull Request（PR）。PR的提交流程可以参考如下文档：
 =====================
 
 * 一个PR只包含对一个问题的修改，这样方便reviewer理解；
-* PR中应该包含Bug/Task的链接，方便大家了解这个PR的来龙去脉，节省reviewer查找的时间；
+* PR中应该包含相关Bug/Task的链接并与其相关联，方便大家了解这个PR的来龙去脉，节省reviewer查找的时间，同时方便项目管理；
 * 应该包含相应的单元测试以及集成测试，可以减少系统的regression，提高代码质量，也避免你的修改会break其他已有的功能，
   同时方便CI/CD集成；
 * 单元测试需要避免对外部系统的依赖，例如：数据库，消息中间件，缓存等，以避免其他开发人员无法在自己的环境中，顺利的
@@ -66,7 +66,6 @@ Pull Request（PR）。PR的提交流程可以参考如下文档：
 .. note::
   为了与社区目前所使用的项目管理工具中的需求、任务、缺陷进行关联，需要在提交代码的commit message中增加如下的关键字::
 
-        缺陷关联：--bug=[bug id] --user=[usernick] 描述
         需求关联：--story=[story id] --user=[usernick] 描述
         任务关联：--task=[task id] --user=[usernick] 描述
 
@@ -74,10 +73,10 @@ Pull Request（PR）。PR的提交流程可以参考如下文档：
 .. note::
   commit message的一个例子::
 
-        [ID12345] 修复首页搜索框无法输入的问题
+        [ID12345] 在首页中添加用户列表
 
-        --bug=12345 --user=john 原来的输入框只允许输入数字，
-        现在改成使用textField，允许输入任何字符。
+        --story=12345 --user=john
+        在首页添加用户列表，显示目前所有已经登录的用户。
         https://www.tapd.cn/11111111/prong/stories/view/1111111111111
 
 
