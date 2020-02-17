@@ -64,20 +64,32 @@ Pull Request（PR）。PR的提交流程可以参考如下文档：
 
 
 .. note::
-  为了与社区目前所使用的项目管理工具中的需求、任务、缺陷进行关联，需要在提交代码的commit message中增加如下的关键字::
+  为了与社区目前所使用的项目管理工具中的需求、任务进行关联，需要在提交代码的commit message中增加如下的关键字::
 
         需求关联：--story=[story id] --user=[usernick] 描述
         任务关联：--task=[task id] --user=[usernick] 描述
 
+  为了与GitHub中的Issue自动建立关联，可以参考如下文档中的方式：
+  https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue
+
 
 .. note::
-  commit message的一个例子::
+  提交对需求12345的修改时，commit message的例子::
 
         [ID12345] 在首页中添加用户列表
 
         --story=12345 --user=john
         在首页添加用户列表，显示目前所有已经登录的用户。
         https://www.tapd.cn/11111111/prong/stories/view/1111111111111
+
+
+.. note::
+  提交对Issue12345修改时，commit message的例子::
+
+        [Issue12345] 修复首页搜索框无法输入的问题
+
+        Closes #12345
+        现在改成使用textField，允许输入任何字符。
 
 
 Review与Merge代码
