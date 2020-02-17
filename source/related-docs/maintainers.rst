@@ -12,7 +12,7 @@
 .. csv-table:: 项目管理人员名单
    :header: "姓名", "GitHub", "Email"
 
-   "耿建华", "genggjh", "david@arxanfintech.com"
+   "耿建华", "genggjh", "gengjianhua@arxanchain.com"
    "狄培", "dipei2020", "dipai@arxanchain.com"
    "樊晓星", "DrangonBall", "fanxiaoxing@arxanfintech.com"
    "陆琪", "kiwiqiqi", "lqi5@grgbanking.com"
@@ -24,6 +24,6 @@
 .. csv-table:: 代码管理人员名单
    :header: "姓名", "GitHub", "Email"
 
-   "耿建华", "genggjh", "david@arxanfintech.com"
+   "耿建华", "genggjh", "gengjianhua@arxanchain.com"
    "张兵", "zhangbing16", "zhangbing@arxanchain.com"
 
