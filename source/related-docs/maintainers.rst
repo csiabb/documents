@@ -14,7 +14,7 @@
 
    "耿建华", "genggjh", "gengjianhua@arxanchain.com"
    "狄培", "dipei2020", "dipei@arxanchain.com"
-   "樊晓星", "DrangonBall", "fanxiaoxing@arxanfintech.com"
+   "樊晓星", "DrangonBall", "fanxiaoxing@arxanchain.com"
    "陆琪", "kiwiqiqi", "lqi5@grgbanking.com"
 
 
@@ -26,4 +26,3 @@
 
    "耿建华", "genggjh", "gengjianhua@arxanchain.com"
    "张兵", "zhangbing16", "zhangbing@arxanchain.com"
-
