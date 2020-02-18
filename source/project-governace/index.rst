@@ -56,9 +56,9 @@
 
    相应工具的管理员，应确保参与者只讨论与项目有关的话题。
 
-   - 微信群（TODO）
-   - 视频会议（TODO）
-   - 其他工具，如：RocketChat，IRC，mailing lists等
+   - 视频会议，目前使用 `腾讯会议 <https://cloud.tencent.com/act/event/tencentmeeting_free?fromSource=gwzcw.3375071.3375071.3375071&utm_medium=cpc&utm_id=gwzcw.3375071.3375071.3375071>`_
+     做为视频会议的工具
+   - 其他工具，如：RocketChat，IRC，mailing lists等 （TODO）
 
 
 .. _refFeatureProposal:
