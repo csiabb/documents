@@ -13,7 +13,7 @@
    :header: "姓名", "GitHub", "Email"
 
    "耿建华", "genggjh", "david@arxanfintech.com"
-   "狄培", "dipei2020", "dipei@arxanchain.com"
+   "狄培", "dipei2020", "dipei@arxanchain.com" 
    "樊晓星", "DrangonBall", "fanxiaoxing@arxanfintech.com"
    "陆琪", "kiwiqiqi", "lqi5@grgbanking.com"
 
