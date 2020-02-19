@@ -16,6 +16,8 @@
    "狄培", "dipei2020", "dipei@arxanchain.com"
    "樊晓星", "DrangonBall", "fanxiaoxing@arxanchain.com"
 
+   
+
 
 * 代码管理人员，主要负责review PR并merge代码，创建release分支等。
 
