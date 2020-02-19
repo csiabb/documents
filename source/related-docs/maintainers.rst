@@ -18,7 +18,7 @@
    "陆琪", "kiwiqiqi", "lqi5@grgbanking.com"
 
 
-* 代码管理人员，主要负责review PR并merge代码，创建release分支等。 
+* 代码管理人员，主要负责review PR并merge代码，创建release分支等。
 
 
 .. csv-table:: 代码管理人员名单
