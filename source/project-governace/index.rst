@@ -38,6 +38,10 @@
 
    项目管理使用的工具是腾讯 `Tapd <https://www.tapd.cn>`_ 。产品、开发人员登录Tapd项目后，可根据自身情况领取任务。如有疑问，请联系 :ref:`名单 <refMaintainers>`。
 
+* UI设计图管理工具
+
+   使用蓝湖做为UI设计图的管理工具，可点击 `众行公益链项目 <https://lanhuapp.com/url/KOSwi-mAgYd>`_ 加入。
+
 .. _refBugReport:
 
 * Bug报告
