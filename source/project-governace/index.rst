@@ -28,6 +28,10 @@
 
 定期组织项目例会，确保大家对当前所开发的功能、将要发布的版本、需要处理的高优先级Bug等理解一致。
 
+* 项目 scrum meeting 定于 **北京时间每周五15点** ，通过 :ref:`视频会议 <refCommunicateTool>` 进行，
+  scrum master 由项目维护人员轮流担任，项目会议记录将保存在 :ref:`项目管理工具 <refProjectTool>`
+  的存档中，并发布到沟通交流工具。
+
 
 相关工具与规范
 ===============
@@ -61,7 +65,7 @@
    相应工具的管理员，应确保参与者只讨论与项目有关的话题。
 
    - 视频会议，目前使用 `腾讯会议 <https://cloud.tencent.com/act/event/tencentmeeting_free?fromSource=gwzcw.3375071.3375071.3375071&utm_medium=cpc&utm_id=gwzcw.3375071.3375071.3375071>`_
-     做为视频会议的工具
+     做为视频会议的工具，开会前，会议主持需提前在微信群或其他交流工具中发出通知和会议链接
    - 其他工具，如：RocketChat，IRC，mailing lists等 （TODO）
 
 
