@@ -15,6 +15,6 @@
    introduction
    project-governace/index
    contribution-guide/index
-   release-plan/index
+   release/index
    developing/index
    related-docs/index
