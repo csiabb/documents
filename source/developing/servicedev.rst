@@ -104,6 +104,59 @@ API接口URL命名规范
 
 在项目目录下直接执行make命令即可，默认构建生成项目的二进制，输出路径为build/bin，同时会将sampleconfig下配置文件拷贝到输出目录下。
 
+服务部署
+~~~~~~~~~~~~~~
+
+为了方便服务的部署运维，项目支持docker方式部署。
+
+* 生成docker镜像
+
+  在linux系统环境下，直接执行make docker命令即可生成后端服务的docker镜像（csiabb/donation-service）
+
+* 镜像使用说明
+
+  后端服务默认监听服务地址为8888端口
+
+  配置文件路径：/etc/csiabb/donation-service.yaml
+
+  日志输出路径：/var/log/csiabb
+
+  服务数据路径：/opt/csiabb/data
+
+* 启动服务示例
+
+  docker run --name donation-test --hostname donation --restart always 
+  -v /data/docker/volumes/donation/conf/donation-service.yaml:/etc/csiabb/donation-service.yaml 
+  -v /data/docker/volumes/donation/log:/var/log/csiabb 
+  -v /data/docker/volumes/donation/data:/opt/csiabb/data 
+  -p 8080:8888 -d csiabb/donation-service
+
+* compose文件参考
+
+::
+
+  version: '2.1'
+  services:
+    donation:
+      container_name: donation
+      hostname: donation
+      image: csiabb/donation-service
+      restart: always
+      logging:
+        driver: "json-file"
+        options:
+          max-size: "100m"
+          max-file: "10"
+      ports:
+        - "8888:8888"
+      volumes:
+        - "/data/docker/volumes/donation/conf/donation-service.yaml:/etc/csiabb/donation-service.yaml"
+        - "/data/docker/volumes/donation/data:/opt/csiabb/data"
+        - "/data/docker/volumes/donation/log:/var/log/csiabb"
+      labels:
+        service.type: "csiabb"
+        service.name: "donation-service"
+
 项目依赖管理
 ~~~~~~~~~~~~~~~~~~~~~
 
