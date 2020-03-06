@@ -26,7 +26,7 @@ v0.1 Release notes
 * 相关代码：
 
   - 后端服务代码： https://github.com/csiabb/donation-service/tree/v0.1
-  - 前端小程序代码：
+  - 前端小程序代码：https://github.com/csiabb/donation-weapp/tree/v0.1
   - 区块链适配层：https://github.com/csiabb/blockchain-adapter/tree/v0.1
 
 * 主要Contributor（排名不分先后）
