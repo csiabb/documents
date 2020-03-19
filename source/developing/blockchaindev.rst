@@ -16,7 +16,7 @@ adapter对业务系统提供统一的API接口，adapter服务可以通过配置
 
 为每个用户在区块链上创建一条上链记录，保证用户的真实可靠，防止用户造假，所有上链的数据均关联到区块链上的唯一用户。
 
-URL：/api/v1/blockchain/acconts
+URL：/api/v1/blockchain/accounts
 Method：POST
 Request Example：
 ::
